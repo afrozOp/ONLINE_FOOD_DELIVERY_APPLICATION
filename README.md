@@ -27,6 +27,7 @@ A **web‑based Food Delivery Application** built using **Java, JSP, and Servlet
 ## 📂 Project Structure
 
 Online-Food-Delivery/
+
 │
 ├── src/main/java/ # Backend Java code (Servlets, DAO, Models)
 

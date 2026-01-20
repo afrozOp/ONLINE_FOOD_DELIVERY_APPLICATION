@@ -1,74 +1,69 @@
-Online Food Delivery Application 🍔🛵
+# Online Food Delivery Application 🍔🛵
 
-A web‑based Food Delivery Application built using Java, JSP, and Servlets. Users can browse restaurants, view menus, manage a cart, and place orders online.
+A **web‑based Food Delivery Application** built using **Java, JSP, and Servlets**. Users can browse restaurants, view menus, manage a cart, and place orders online.
 
-🚀 Features
+---
 
-User Registration & Login – Secure account creation and authentication
+## 🚀 Features
 
-Restaurant Listing – Browse available restaurants
+- **User Registration & Login** – Secure account creation and authentication  
+- **Restaurant Listing** – Browse available restaurants  
+- **Menu Browsing** – View dishes available in each restaurant  
+- **Add to Cart / Update Cart** – Add items to cart, update quantities, or remove items  
+- **Place Order** – Confirm and place an order  
+- **Order Success Page** – Confirmation page after successful order placement
 
-Menu Browsing – View dishes available in each restaurant
+---
 
-Add to Cart / Update Cart – Add items to cart, update quantities, or remove items
+## 🛠 Tech Stack
 
-Place Order – Confirm and place an order
+- **Backend:** Java, JSP, Servlets  
+- **Frontend:** HTML, CSS  
+- **Database:** MySQL  
+- **Server:** Apache Tomcat
 
-Order Success Page – Confirmation page after successful order placement
+---
 
-🛠 Tech Stack
+## 📂 Project Structure
 
-Backend: Java, JSP, Servlets
-
-Frontend: HTML, CSS
-
-Database: MySQL
-
-Server: Apache Tomcat
-
-📂 Project Structure
 Online-Food-Delivery/
 │
-├── src/main/java/            # Backend Java code (Servlets, DAO, Models)
-├── src/main/webapp/          # JSP pages, CSS, images
-│   ├── css/                  # Stylesheets
-│   ├── images/               # Images used in the project
-│   ├── index.jsp             # Homepage
-│   └── ...                   # Other JSP pages (login, menus, cart, order)
-├── lib/                      # External libraries (if any)
-├── README.md                 # Project documentation
-└── pom.xml / build.gradle     # If using Maven/Gradle (optional)
-
-💻 How to Run
-
-Clone the Repository
-
-git clone https://github.com/afrozOp/<your-repo-name>  
+├── src/main/java/ # Backend Java code (Servlets, DAO, Models)
+├── src/main/webapp/ # JSP pages, CSS, images
+│ ├── css/ # Stylesheets
+│ ├── images/ # Images used in the project
+│ ├── index.jsp # Homepage
+│ └── ... # Other JSP pages (login, menus, cart, order)
+├── lib/ # External libraries (if any)
+├── README.md # Project documentation
 
 
-(Replace <your-repo-name> with your actual repo name.)
+---
 
-Import Project into Eclipse
+## 💻 How to Run
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/afrozOp/<ONLINE_FOOD_DELIVERY_APPLICATION>
+
+2. Import Project into Eclipse
 
 File → Import → Existing Java Project
 
-Configure Apache Tomcat Server
+3. Configure Apache Tomcat Server
 
 Window → Preferences → Server → Runtime Environments → Add Tomcat
 
-Setup MySQL Database
+4. Setup MySQL Database
 
 Create a database named food_delivery
 
 Run the SQL script below to create tables and insert sample data
 
-Run the Project
+5. Run the Project
 
 Right‑click the project → Run As → Run on Server
 
-Open http://localhost:8080/<project-name> in your browser
-
-🗄 Database Setup (MySQL)
 -- Create database
 CREATE DATABASE IF NOT EXISTS food_delivery;
 USE food_delivery;
@@ -132,10 +127,13 @@ INSERT INTO menu_items (restaurant_id, name, description, price) VALUES
 (2, 'Cheeseburger', 'Beef burger with cheese', 150.00),
 (2, 'Veggie Burger', 'Burger with fresh vegetables', 120.00);
 
+
 👩‍💻 Author
 
 Kashimpatel Biradar
 
 GitHub: https://github.com/afrozOp
-
 LinkedIn: https://www.linkedin.com/in/kashimpatel-biradar-19b88a37b/
+
+
+

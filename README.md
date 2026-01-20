@@ -133,6 +133,7 @@ INSERT INTO menu_items (restaurant_id, name, description, price) VALUES
 Kashimpatel Biradar
 
 GitHub: https://github.com/afrozOp
+
 LinkedIn: https://www.linkedin.com/in/kashimpatel-biradar-19b88a37b/
 
 

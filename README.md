@@ -29,12 +29,19 @@ A **web‑based Food Delivery Application** built using **Java, JSP, and Servlet
 Online-Food-Delivery/
 │
 ├── src/main/java/ # Backend Java code (Servlets, DAO, Models)
+
 ├── src/main/webapp/ # JSP pages, CSS, images
+
 │ ├── css/ # Stylesheets
+
 │ ├── images/ # Images used in the project
+
 │ ├── index.jsp # Homepage
+
 │ └── ... # Other JSP pages (login, menus, cart, order)
+
 ├── lib/ # External libraries (if any)
+
 ├── README.md # Project documentation
 
 
